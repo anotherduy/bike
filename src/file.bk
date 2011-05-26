@@ -75,7 +75,6 @@ Bike.FileSystem = {
 		}
 	}!#
 	read: func( path ) {
-		Bike.Contract.requires( !Bike.String.is_empty( path ) , 'path' );
 		return System.IO.File.ReadAllText( path );
 	},
 	
@@ -93,8 +92,6 @@ Bike.FileSystem = {
 		}
 	}!#
 	write: func( path, content ) {
-		Bike.Contract.requires_not_null( content , 'content' );
-		Bike.Contract.requires( !Bike.String.is_empty( path ) , 'path' );
 		System.IO.File.WriteAllText( path, content );
 	},
 	
