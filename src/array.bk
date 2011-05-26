@@ -1,5 +1,5 @@
 #!{ object: 'Bike.Array',
-	summary: 'The prototype of all arrays in the system'
+	summary: 'The prototype of all arrays in the bike system'
 }!#
 
 #!{ method: 'Bike.Array.hash_code',
