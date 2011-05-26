@@ -6,7 +6,7 @@
 	summary: 'Gets the hash code of this array',
 	ret: {
 		type: 'Bike.Number',
-		desc: 'The hash code of this array'
+		desc: 'The hash code of this array. An integer'
 	}
 }!#
 Bike.Array.hash_code = func() {
