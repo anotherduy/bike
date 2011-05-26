@@ -1,7 +1,6 @@
 #!{ object: 'Bike.FileSystem',
 	summary: 'Helped object used to perform directory and file operations		'
 }!#
-
 Bike.FileSystem = {
 	#!{ method: 'Bike.FileSystem.each( path, fn , exts , recursive )',
 		summary: 'Iterates files and invokes the given function on each file name',
@@ -25,6 +24,7 @@ Bike.FileSystem = {
 		}
 	}!#
 	each: func( path, fn, recursive, *exts ) {
+		# code comment here
 		exts ||= [];
 		recursive ||= false;
 		if ( Bike.String.is_empty( path ) || fn == null ) {
