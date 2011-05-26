@@ -1,5 +1,5 @@
 #!{ object: 'Bike.FileSystem',
-	summary: 'Helped object used to perform directory and file operations		'
+	summary: 'Helped object used to perform directory and file operations'
 }!#
 Bike.FileSystem = {
 	#!{ method: 'Bike.FileSystem.each( path, fn , exts , recursive )',
